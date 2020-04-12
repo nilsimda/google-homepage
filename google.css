@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 header{
     height: 25%;
@@ -21,10 +21,16 @@ img{
 }
 #search-bar{
     width: 100%;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 15px;
     margin-bottom: 20px;
     border: 1px solid silver;
+    background-image: url("/home/teeman/Downloads/googlemic.png");
+    background-position: 97% 12px;
+    background-size: 15px;
+    text-indent: 20px;
+    background-repeat: no-repeat;
+    
 }
 ul {
     list-style-type: none;
@@ -76,5 +82,14 @@ ul {
   }
   #search-bar:focus{
       outline: none;
+      box-shadow:  0 1px 6px 0 rgba(32,33,36,0.28);
   }
+  #search-bar:hover{
+    box-shadow:  0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.search i{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 12px;
+}
   
