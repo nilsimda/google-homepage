@@ -15,7 +15,7 @@ footer{
     width: 40%;
     margin: 0 auto;
 }
-img{
+#logo{
     display: block;
     margin: 0px auto;
 }
@@ -91,5 +91,17 @@ ul {
     position: absolute;
     margin-top: 14px;
     margin-left: 12px;
+}
+#apps-logo{
+    height: 30px;
+    width: 30px;
+    opacity: 0.6;
+}
+#apps-logo:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#logolink{
+    padding-top:5px;
 }
   
